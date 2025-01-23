@@ -25,7 +25,7 @@ public class Game {
 	private String platforms;
 	private double score;
 	private String imgUrl;
-	
+	//Estes TEXT para aceitar mais 255 caracteres no bd.
 	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
 	
